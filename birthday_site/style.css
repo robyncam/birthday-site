@@ -1,0 +1,75 @@
+@font-face {
+    src: url("Lemon spark.ttf");
+    font-family: LemonSpark;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bff-img{
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-image: url("images/sasha.jpg")
+    border: 6px solid white;
+    background-size: cover;
+}
+
+#age{
+    background: #8a817c;
+    padding: 8px 16px;
+    border-radius: 30px;
+}
+body {
+    font-family: LemonSpark;
+    color: #84a98c;
+    background: linear-gradient(#2f3e46, #52796f);
+    text-align: center;
+}
+
+h1,h2,h3 {
+    text-shadow: 5px 5px 5px #2f3e46;
+}
+
+.gift-img {
+    height: 400px;
+    background-image: url("images/gift.jpg");
+    background-size: cover;
+    width: 400px;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+#happy:hover{
+    background: url("https://media.giphy.com/media/xTiN0CNHgoRf1Ha7CM/giphy.gif");
+    background-size: cover;
+}
+
+#hot:hover {
+    background: url("https://media.giphy.com/media/LoIsP3fz02IjOUTc6t/giphy.gif");
+    background-size: cover;
+}
+
+#badass:hover {
+    background: url("https://media.giphy.com/media/6pSJGZW0ZmbUA/giphy.gif");
+    background-size: cover;
+}
+
+#cheers{
+    width:600px;
+    height: 300px;
+}
+
+#cheers:hover{
+    background: url("https://media.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif");
+    background-size: cover;
+}
+
+#style:hover {
+
+    background: url("https://media.giphy.com/media/9PcAnsMhCaPnHvY9hP/giphy.gif")
+}
